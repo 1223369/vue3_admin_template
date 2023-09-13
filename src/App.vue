@@ -5,16 +5,10 @@
 </template>
 
 <script setup lang="ts">
-const str = '我爱你'
+for (let i = 0; i < 100; i++) {
+  console.log('test')
+}
 </script>
 
 <style scoped lang="scss">
-.box {
-  width: 600px;
-  height: 400px;
-  background-color: black;
-  h1 {
-    color: white;
-  }
-}
 </style>
