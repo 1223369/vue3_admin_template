@@ -15,10 +15,9 @@ app.use(ElementPlus, {
   locale: zhCn, //国际化配置
 })
 
-console.log(import.meta.env);
+console.log(import.meta.env)
 //svg插件需要的配置代码
 import 'virtual:svg-icons-register'
 
 //将应用挂载到挂载点上
 app.mount('#app')
-

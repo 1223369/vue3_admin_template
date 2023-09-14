@@ -1,8 +1,8 @@
 <template>
   <!--svg:图标外层容器节点，内部需要与use标签结合使用-->
-  <svg :style="{width,height}">
+  <svg :style="{ width, height }">
     <!--x1ink:href执行用哪一个图标，属性值务必#icon-图标名字 -->
-    <use :xlink:href="prefix+name" :fill="color" />
+    <use :xlink:href="prefix + name" :fill="color" />
   </svg>
 </template>
 
@@ -33,5 +33,4 @@ defineProps({
 })
 </script>
 
-<style scoped lang="less">
-</style>
+<style scoped lang="less"></style>
