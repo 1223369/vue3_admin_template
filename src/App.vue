@@ -1,14 +1,13 @@
 <template>
-  <div class="box">
-    <h1>我是app根组件</h1>
+  <div>
+    <h1>SVG测试代码</h1>
+    <!-- svg:图标外层容器节点，内部需要与use标签结合使用 -->
+    <svg-icon name="refresh" color="red" width="160px" height="160px"></svg-icon>
   </div>
 </template>
 
 <script setup lang="ts">
-for (let i = 0; i < 100; i++) {
-  console.log('test')
-}
+import SvgIcon from '@/components/SvgIcon/index.vue'
 </script>
 
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>
